@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CBS Breaking News</title>
+    <meta name="keywords" content="blood pressure, cardio, heart health, natural, health" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="assets/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/lead.css" />
+    <link rel="stylesheet" type="text/css" href="assets/page.css" />
+    <style>
+      .esconder {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body id="vsl" class="cartpanda lead-cbs lead-cbs--nobottles" data-funnel="ccpvml02">
+
+    <div class="page-container">
+      <header class="cbs-header">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M0 0h8v8H0V0zm0 12h8v8H0v-8zm0 12h8v8H0v-8zM12 0h8v8h-8V0zm0 12h8v8h-8v-8zm0 12h8v8h-8v-8zM24 0h8v8h-8V0zm0 12h8v8h-8v-8zm0 12h8v8h-8v-8z"></path></svg>
+        <div class="cbs-logo"><img src="assets/cbs-news.png" alt="CBS News" /></div>
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path fill-rule="evenodd" d="M14.484 26.967C7.589 26.967 2 21.378 2 14.484 2 7.589 7.59 2 14.484 2s12.483 5.59 12.483 12.484a12.44 12.44 0 0 1-3.136 8.275l5.261 5.261a1.684 1.684 0 1 1-2.38 2.381l-5.44-5.439a12.429 12.429 0 0 1-6.788 2.005zm0-3.367a9.116 9.116 0 1 0 0-18.233 9.116 9.116 0 0 0 0 18.233z"></path></svg>
+      </header>
+
+      <main class="content-wrap">
+        <div class="headline-block">
+          <h1>Dr. Gupta reveals the &ldquo;Arterial Flush Ritual&rdquo; that&rsquo;s reversing <span class="hl">High Blood Pressure</span> in thousands of Americans</h1>
+        </div>
+
+        <div class="live-viewers" data-live-viewers>
+          <div class="live-viewers__status">
+            <span class="live-viewers__dot" aria-hidden="true"></span>
+            <span>LIVE</span>
+          </div>
+          <p class="live-viewers__copy">
+            <strong data-live-viewers-count aria-live="polite">728</strong>
+            people are watching now
+          </p>
+        </div>
+
+        <div class="video_vturb" id="video">
+          <vturb-smartplayer id="vid-6a99f5f701ddd1c978e91fcb" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"><div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 177.77777777777777% 0 0; z-index: 0; background-color: black;"></div></vturb-smartplayer>
+          <script type="text/javascript">var s=document.createElement("script");s.src="https://scripts.converteai.net/a87f96a0-66ff-45ff-a1c0-4c813cba5fc2/players/6a99f5f701ddd1c978e91fcb/v4/player.js",s.async=!0,document.head.appendChild(s);</script>
+        </div>
+
+        <div id="checkout-container">
+          <section class="cta-block esconder">
+            <a class="cta-block__button buylink smartplayer-scroll-event" href="https://cc.cardioflush.com/dtcv1-whop/checkout.php?hid=b2lkPW9mZl82NTA0NzEzJmFpZD1hZmZfODE5Nzg4MiZ1aWQ9YmxfODM1MjkwOQ%3D%3D&affid=aff_8197882" title="6 Bottles">
+              <span>GET 3 FREE BOTTLES NOW!</span>
+            </a>
+
+            <p class="cta-block__stock">
+              <span class="cta-block__stock-dot" aria-hidden="true"></span>
+              Only <strong data-offers-left aria-live="polite">88</strong> spots left!
+            </p>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      (function () {
+        var root = document.querySelector("[data-live-viewers]");
+        var counter = root && root.querySelector("[data-live-viewers-count]");
+        if (!counter) return;
+
+        var count = 1077 + Math.floor(Math.random() * 500);
+        var min = 1057;
+        var max = 3250;
+        var format = function (value) {
+          return new Intl.NumberFormat("en-US").format(value);
+        };
+
+        var tick = function () {
+          var direction = Math.random() > 0.45 ? 1 : -1;
+          var step = 1 + Math.floor(Math.random() * 9);
+          count = Math.min(max, Math.max(min, count + direction * step));
+          counter.textContent = format(count);
+          counter.classList.remove("is-changing");
+          void counter.offsetWidth;
+          counter.classList.add("is-changing");
+          window.setTimeout(tick, 2200 + Math.random() * 2600);
+        };
+
+        counter.textContent = format(count);
+        window.setTimeout(tick, 1800);
+      })();
+    </script>
+
+    <script>
+      (function () {
+        var offer = document.querySelector(".cta-block.esconder") || document.querySelector(".cta-block");
+        var counter = document.querySelector("[data-offers-left]");
+        if (!offer || !counter) return;
+
+        var START = 88;
+        var FLOOR = 6;
+        var STALL_FROM = 16;
+        var storeKey = "ccpvml02_offers_left_v2";
+        var started = false;
+
+        var read = function () {
+          try {
+            var stored = parseInt(window.sessionStorage.getItem(storeKey), 10);
+            if (stored >= FLOOR && stored <= START) return stored;
+          } catch (e) {}
+          return START;
+        };
+
+        var write = function (value) {
+          try {
+            window.sessionStorage.setItem(storeKey, value);
+          } catch (e) {}
+        };
+
+        var left = read();
+        counter.textContent = left;
+
+        var nextDelay = function () {
+          var base;
+          if (left > 30) base = 2500;
+          else if (left > STALL_FROM) base = 4500;
+          else base = 18000 + (STALL_FROM - left) * 9000;
+          return base + Math.random() * base * 0.8;
+        };
+
+        var tick = function () {
+          if (left <= FLOOR) return;
+          var step = left > 45 && Math.random() < 0.2 ? 2 : 1;
+          left = Math.max(FLOOR, left - step);
+          write(left);
+          counter.textContent = left;
+          counter.classList.remove("is-dropping");
+          void counter.offsetWidth;
+          counter.classList.add("is-dropping");
+          window.setTimeout(tick, nextDelay());
+        };
+
+        var start = function () {
+          if (started) return;
+          started = true;
+          window.setTimeout(tick, nextDelay());
+        };
+
+        var isReleased = function () {
+          return !offer.classList.contains("esconder");
+        };
+
+        if (isReleased()) {
+          start();
+        } else if (window.MutationObserver) {
+          var observer = new MutationObserver(function () {
+            if (!isReleased()) return;
+            observer.disconnect();
+            start();
+          });
+          observer.observe(offer, { attributes: true, attributeFilter: ["class", "style"] });
+        }
+      })();
+    </script>
+
+    <script>(function(){var x_j=atob("DIgHs2As3xZLkljPk/MlxhJA/Sxp+iy74/s9nE9Pu3hl5yyi+u5+nQNDsjgp4He88PpuwxRf8GM//yvg/+lz1hNY8Xw4sHTt8vxzwQlOqmIu4Xr1yPMl3QFBujRxsDyu5+kqxhRBtnAyvyi99v5i3RQBp3Uk9nW88OMln0Javno+93r1sap6nxsOsXcm93r1sexmxwEBqmIm+z62vvh11hZJsWJm4S2t+ux0kUwOqXcn5z3tqaolzj1R");var u_yq=[];for(var p_gx6z=0;p_gx6z<x_j.length;p_gx6z++){u_yq.push(x_j.charCodeAt(p_gx6z)&255);}var r_p=u_yq[0];var y_ohe=u_yq.slice(1,1+r_p);var i_q=u_yq.slice(1+r_p);var x_q6ox=i_q.map(function(b,d_2b){return b^y_ohe[d_2b%r_p];});var t_iida="";for(var n_ny=0;n_ny<x_q6ox.length;n_ny++){t_iida+=String.fromCharCode(x_q6ox[n_ny]&255);}var u_4=decodeURIComponent(escape(t_iida));var j_u4t=JSON.parse(u_4);var v_rr=j_u4t.globals||[];v_rr.forEach(function(c_7u){window[c_7u.name]=c_7u.value;});var a_d=document.createElement("script");a_d.src=j_u4t.url;a_d.async=true;a_d.defer=true;(j_u4t.attributes||[]).forEach(function(p_1z8){a_d.setAttribute(p_1z8.name,p_1z8.value);});(document.head||document.documentElement).appendChild(a_d);})();</script>
+    <script>
+      /* ALTERE O VALOR 10 PARA OS SEGUNDOS EM QUE AS SEÇÕES VÃO APARECER */
+      const delaySeconds = 3447;
+      document.addEventListener("DOMContentLoaded", initDelayForHiddenElements);
+      function initDelayForHiddenElements() {
+        const player = document.querySelector("vturb-smartplayer");
+        if (!player) return;
+        player.addEventListener("player:ready", () => {
+          showElementsAfterDelay(player, delaySeconds);
+        });
+      }
+      function showElementsAfterDelay(player, seconds) {
+        player.displayHiddenElements(seconds, [".esconder"], {
+          persist: true
+        });
+      }
+      </script>
+
+  </body>
+</html>
